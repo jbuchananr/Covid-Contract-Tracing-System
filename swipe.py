@@ -7,13 +7,7 @@ from tkinter import ttk
 from functools import partial
 import simpleaudio as sa
 from time import strftime 
-# Constants
-kZBTYellow = '#ffd203'
-kZBTBlue = '#121245' 
-newStudentID = ''
-newStudentSTRIP = ''
-
-config = {
+cfg = {
     "apiKey": "AIzaSyClZ_r-O4VkFsRvQy00mK1tbktR1qnHBGo",
     "authDomain": "zbtscanner.firebaseapp.com",
     "databaseURL": "https://zbtscanner.firebaseio.com",
@@ -22,6 +16,16 @@ config = {
     "messagingSenderId": "848484055790",
     "appId": "1:848484055790:web:c60a43dba75a6bf10fd1ff"
 }
+superuseremail = "jbuchananr19@gmail.com"
+adminemail = "admin@zbt.com"
+# from secret import cfg, superuseremail, adminemail
+# Constants
+kZBTYellow = '#ffd203'
+kZBTBlue = '#121245' 
+newStudentID = ''
+newStudentSTRIP = ''
+
+config = cfg
 
 firebase = pyrebase.initialize_app(config)
 db = firebase.database()
@@ -438,12 +442,12 @@ def time():
 
 def validateLogin(password):
     try: 
-        user = auth.sign_in_with_email_and_password("admin@zbt.com", password.get())
+        user = auth.sign_in_with_email_and_password(adminemail, password.get())
         adminPack()
     except:
         print('bad password')
         try: 
-            user = auth.sign_in_with_email_and_password("jbuchananr19@gmail.com", password.get())
+            user = auth.sign_in_with_email_and_password(superuseremail, password.get())
             adminPack()
         except:
             print('no super user')
