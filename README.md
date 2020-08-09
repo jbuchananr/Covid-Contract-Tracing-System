@@ -10,13 +10,13 @@
 ## Install
 
 ```sh
-! Must Have Python INSTALLED 3.8! *RUN FOLLOWING COMMANDS AFTER ACTIVATING VENV* pip install re, pip install os, pip install datetime, pip install pyrebase, pip install tkinter, pip install functools, pip install simpleaudio, pip install time 
+! Must Have Python INSTALLED 3.8! *RUN FOLLOWING COMMANDS AFTER ACTIVATING VENV* pip install re, pip install os, pip install datetime, pip install pyrebase, pip install tkinter, pip install functools, pip install simpleaudio, pip install time, You will also need a fire base config and set emails for admin and super user. Please contact me for Information on these. 
 ```
 
 ## Usage
 
 ```sh
-First, navigate to the file directory in terminal. Run source zbtvenv/bin/activate. Also, if first time use run the install commands. Then, run python swipe.py, the application will the launch and you are all set!
+First, navigate to the file directory in terminal. Run source zbtvenv/bin/activate. Also, if first time use run the install commands. Then, run python swipe.py, the application will the launch and you are all set! Don't forget to set the emails and config.
 ```
 
 ## Author
