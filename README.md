@@ -25,7 +25,7 @@ First, navigate to the file directory in terminal. Run source zbtvenv/bin/activa
 
 * Twitter: [@jbuchananr](https://twitter.com/jbuchananr)
 * Github: [@jbuchananr](https://github.com/jbuchananr)
-* LinkedIn: [@jonathan-buchanan-745803191 ](https://linkedin.com/in/linkedin.com\/in\/jonathan-buchanan-745803191 )
+* LinkedIn: [@jonathan-buchanan-745803191 ](https://linkedin.com/in/jonathan-buchanan-745803191 )
 
 ## Show your support
 
