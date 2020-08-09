@@ -1,11 +1,17 @@
-<h1 align="center">Welcome to Zebe Track 👋</h1>
+<h1 align="center">Welcome to Zebe Track </h1>
 <p>
   <a href="https://twitter.com/jbuchananr" target="_blank">
     <img alt="Twitter: jbuchananr" src="https://img.shields.io/twitter/follow/jbuchananr.svg?style=social" />
   </a>
 </p>
 
-> With the recent COVID-19 outbreak, its easy to see how a greek life house will have many issues as there are over 100+ members in ZBT. To help track when people enter the house as well as their guests I developed this python program. The program will prompt first time users to enter their names which will be saved for future use. A ding will then sound if the user successfully swipes in! It will ask you to try again if the swipe is invalid! The program also as an admin page where an admin can query information based off Month, Day, and as well as search by Student ID.
+> With the recent COVID-19 outbreak, its easy to see how a greek life house will have many issues as there are over 100+ members in ZBT. To help track people when enter the house as well as their guests I developed this python program. The program will prompt first time users to enter their names which will be saved for future use. A ding will then sound if the user successfully swipes in! It will ask you to try again if the swipe is invalid! The program also as an admin page where an admin can query information based off Month, Day, and as well as search by Student ID. 
+Key Features -
+* Auto User Creation for first time users
+* Sound & Visual Validation for users
+* Automatic checkin at 12:00 AM for users who are still checked in
+* Checks out and marks users who have not checked out in over 24 Hours
+* Admin Page where you can query information from online database based of Month, Day, and Student ID
 
 ## Install
 
