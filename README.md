@@ -13,7 +13,7 @@ Key Features -
 * Checks out and marks users who have not checked out in over 24 Hours
 * Admin Page where you can query information from online database based of Month, Day, and Student ID
 ## Check out the website
-<p> Recently this project got converted to a website for more efficient use! You can check it out <a href="https://zebe-track.herokuapp.com/"> HERE <\a>
+<p> Recently this project got converted to a website for more efficient use! You can check it out <a href="https://zebe-track.herokuapp.com/"> HERE </a>
 
 ## Install
 
