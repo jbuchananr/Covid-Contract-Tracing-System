@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Zebe Track </h1>
+<h1 align="center">Welcome to Covid Tracker [Python Version] </h1>
 <p>
   <a href="https://twitter.com/jbuchananr" target="_blank">
     <img alt="Twitter: jbuchananr" src="https://img.shields.io/twitter/follow/jbuchananr.svg?style=social" />
@@ -35,9 +35,9 @@ First, navigate to the file directory in terminal. Run source zbtvenv/bin/activa
 * Github: [@jbuchananr](https://github.com/jbuchananr)
 * LinkedIn: [@jonathan-buchanan-745803191 ](https://linkedin.com/in/jonathan-buchanan-745803191 )
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
+## More information
+  
+Later developed a website based off of this project that I have since taken down. 
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
